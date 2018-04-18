@@ -1,4 +1,4 @@
 # ESLint config
 
-ESLint shareable config from Emphori
+Shareable ESLint JavaScript styleguide from Emphori
 
