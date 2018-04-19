@@ -1,0 +1,34 @@
+{
+  "name": "eslint-config",
+  "version": "0.0.0",
+  "description": "Shareable ESLint JavaScript styleguide from Emphori",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emphori/eslint-config.git"
+  },
+  "keywords": [
+    "emphori",
+    "code",
+    "code",
+    "quality",
+    "code",
+    "style",
+    "style",
+    "styleguide",
+    "lint",
+    "linter",
+    "eslint"
+  ],
+  "author": "Emphori",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Emphori/eslint-config/issues"
+  },
+  "homepage": "https://github.com/Emphori/eslint-config#readme",
+  "devDependencies": {
+    "eslint": "^5.5.0"
+  }
+}
