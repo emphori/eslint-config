@@ -12,10 +12,7 @@
   "keywords": [
     "emphori",
     "code",
-    "code",
-    "quality",
-    "code",
-    "style",
+    "codestyle",
     "style",
     "styleguide",
     "lint",
@@ -23,7 +20,7 @@
     "eslint"
   ],
   "author": "Emphori",
-  "license": "GPL-3.0-or-later",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Emphori/eslint-config/issues"
   },
