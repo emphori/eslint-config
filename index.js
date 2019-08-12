@@ -1,6 +1,12 @@
 'use strict';
 
 module.exports = {
+  env: {
+    node: true
+  },
+  parserOptions: {
+    ecmaVersion: 7
+  },
   rules: {
     'valid-jsdoc': ['error', {
       prefer: {
