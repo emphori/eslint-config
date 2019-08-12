@@ -11,7 +11,7 @@ module.exports = {
     'class-methods-use-this': 'error',
     'no-empty-function': 'error',
     'no-eval': 'error',
-    'no-new-func': 'error'
+    'no-new-func': 'error',
     'no-new-wrappers': 'error',
     'no-param-reassign': ['error', {
       props: true
