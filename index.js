@@ -5,7 +5,7 @@ module.exports = {
     node: true
   },
   parserOptions: {
-    ecmaVersion: 7
+    ecmaVersion: 2018
   },
   rules: {
     'valid-jsdoc': ['error', {
@@ -23,10 +23,10 @@ module.exports = {
       props: true
     }],
     'no-return-await': 'error',
+    'quotes': ['error', 'single', { 'avoidEscape': true }],
     'require-await': 'error',
     'yoda': ['error', 'never', { exceptRange: true }],
     'strict': ['error', 'global']
   },
   extends: 'eslint:recommended'
 };
-
