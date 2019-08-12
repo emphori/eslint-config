@@ -1,6 +1,6 @@
 {
   "name": "@emphori/eslint-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Shareable ESLint JavaScript styleguide from Emphori",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
