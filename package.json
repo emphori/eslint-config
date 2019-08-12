@@ -1,6 +1,6 @@
 {
   "name": "@emphori/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Shareable ESLint JavaScript styleguide from Emphori",
   "repository": {
     "type": "git",
