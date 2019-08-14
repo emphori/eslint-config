@@ -18,7 +18,13 @@
     "Iain Reid <iainreid382@gmail.com> (https://chaff.land)"
   ],
   "license": "MIT",
+  "scripts": {
+    "lint": "eslint . -c index.js"
+  },
   "peerDependencies": {
+    "eslint": "^6.1.0"
+  },
+  "devDependencies": {
     "eslint": "^6.1.0"
   },
   "publishConfig": {
