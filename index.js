@@ -2,31 +2,36 @@
 
 module.exports = {
   env: {
-    node: true
+    node: true,
   },
   parserOptions: {
-    ecmaVersion: 2018
+    ecmaVersion: 2018,
   },
   rules: {
-    'valid-jsdoc': ['error', {
-      prefer: {
-        returns: 'return'
-      }
-    }],
     'block-scoped-var': 'error',
     'class-methods-use-this': 'error',
+    'comma-dangle': ['error', 'always-multiline'],
     'no-empty-function': 'error',
     'no-eval': 'error',
     'no-new-func': 'error',
     'no-new-wrappers': 'error',
     'no-param-reassign': ['error', {
-      props: true
+      props: true,
     }],
     'no-return-await': 'error',
-    'quotes': ['error', 'single', { 'avoidEscape': true }],
+    'quotes': ['error', 'single', {
+      avoidEscape: true,
+    }],
     'require-await': 'error',
-    'yoda': ['error', 'never', { exceptRange: true }],
-    'strict': ['error', 'global']
+    'strict': ['error', 'global'],
+    'valid-jsdoc': ['error', {
+      prefer: {
+        returns: 'return',
+      },
+    }],
+    'yoda': ['error', 'never', {
+      exceptRange: true,
+    }],
   },
-  extends: 'eslint:recommended'
+  extends: 'eslint:recommended',
 };
