@@ -3,7 +3,6 @@
   "version": "0.1.10",
   "description": "Shareable ESLint JavaScript styleguide from Emphori",
   "keywords": [
-    "emphori",
     "code",
     "codestyle",
     "style",
@@ -12,8 +11,8 @@
     "linter",
     "eslint"
   ],
-  "author": "Emphori (https://emphori.studio)",
-  "homepage": "https://github.com/Emphori/eslint-config#readme",
+  "author": "Emphori (https://emphori.co)",
+  "homepage": "https://github.com/emphori/eslint-config#readme",
   "contributors": [
     "Iain Reid <iainreid382@gmail.com> (https://chaff.land)"
   ],
@@ -32,9 +31,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Emphori/eslint-config.git"
+    "url": "git+https://github.com/emphori/eslint-config.git"
   },
   "bugs": {
-    "url": "https://github.com/Emphori/eslint-config/issues"
+    "url": "https://github.com/emphori/eslint-config/issues"
   }
 }
